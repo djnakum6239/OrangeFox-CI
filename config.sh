@@ -2,16 +2,16 @@
 
 # Device
 export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://github.com/nokia-msm8937-dev/twrp_device_nokia_PLE -b omni-9.0"
+export DT_LINK="https://github.com/djnakum6239/android_device_oneplus_ziti -b android15"
 
-export DEVICE="PLE"
-export OEM="nokia"
+export DEVICE="CPH2569"
+export OEM="Oneplus"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="recoveryimage"
+export TARGET="bootimage"
 
 export OUTPUT="OrangeFox*.zip"
 
